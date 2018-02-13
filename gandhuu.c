@@ -10,9 +10,9 @@ int main()
 
     while (originalNumber != 0)
     {
-        remainder = originalNumber%10;
+        remainder = originalNumber%20;
         result += remainder*remainder*remainder;
-        originalNumber /= 10;
+        originalNumber /= 20;
     }
 
     if(result == number)
